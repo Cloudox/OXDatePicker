@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE98742A1F146BD3008F8774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9874291F146BD3008F8774 /* main.m */; };
+		CE98742D1F146BD3008F8774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98742C1F146BD3008F8774 /* AppDelegate.m */; };
+		CE9874301F146BD3008F8774 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98742F1F146BD3008F8774 /* ViewController.m */; };
+		CE9874331F146BD3008F8774 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9874311F146BD3008F8774 /* Main.storyboard */; };
+		CE9874351F146BD3008F8774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9874341F146BD3008F8774 /* Assets.xcassets */; };
+		CE9874381F146BD3008F8774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9874361F146BD3008F8774 /* LaunchScreen.storyboard */; };
+		CE9874431F146BD3008F8774 /* OXDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9874421F146BD3008F8774 /* OXDatePickerTests.m */; };
+		CE98744E1F146BD3008F8774 /* OXDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98744D1F146BD3008F8774 /* OXDatePickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE98743F1F146BD3008F8774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE98741D1F146BD3008F8774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9874241F146BD3008F8774;
+			remoteInfo = OXDatePicker;
+		};
+		CE98744A1F146BD3008F8774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE98741D1F146BD3008F8774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE9874241F146BD3008F8774;
+			remoteInfo = OXDatePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE9874251F146BD3008F8774 /* OXDatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OXDatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9874291F146BD3008F8774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE98742B1F146BD3008F8774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE98742C1F146BD3008F8774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE98742E1F146BD3008F8774 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE98742F1F146BD3008F8774 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE9874321F146BD3008F8774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9874341F146BD3008F8774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9874371F146BD3008F8774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE9874391F146BD3008F8774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE98743E1F146BD3008F8774 /* OXDatePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXDatePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9874421F146BD3008F8774 /* OXDatePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXDatePickerTests.m; sourceTree = "<group>"; };
+		CE9874441F146BD3008F8774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9874491F146BD3008F8774 /* OXDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE98744D1F146BD3008F8774 /* OXDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXDatePickerUITests.m; sourceTree = "<group>"; };
+		CE98744F1F146BD3008F8774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9874221F146BD3008F8774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE98743B1F146BD3008F8774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9874461F146BD3008F8774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE98741C1F146BD3008F8774 = {
+			isa = PBXGroup;
+			children = (
+				CE9874271F146BD3008F8774 /* OXDatePicker */,
+				CE9874411F146BD3008F8774 /* OXDatePickerTests */,
+				CE98744C1F146BD3008F8774 /* OXDatePickerUITests */,
+				CE9874261F146BD3008F8774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9874261F146BD3008F8774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9874251F146BD3008F8774 /* OXDatePicker.app */,
+				CE98743E1F146BD3008F8774 /* OXDatePickerTests.xctest */,
+				CE9874491F146BD3008F8774 /* OXDatePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9874271F146BD3008F8774 /* OXDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				CE98742B1F146BD3008F8774 /* AppDelegate.h */,
+				CE98742C1F146BD3008F8774 /* AppDelegate.m */,
+				CE98742E1F146BD3008F8774 /* ViewController.h */,
+				CE98742F1F146BD3008F8774 /* ViewController.m */,
+				CE9874311F146BD3008F8774 /* Main.storyboard */,
+				CE9874341F146BD3008F8774 /* Assets.xcassets */,
+				CE9874361F146BD3008F8774 /* LaunchScreen.storyboard */,
+				CE9874391F146BD3008F8774 /* Info.plist */,
+				CE9874281F146BD3008F8774 /* Supporting Files */,
+			);
+			path = OXDatePicker;
+			sourceTree = "<group>";
+		};
+		CE9874281F146BD3008F8774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE9874291F146BD3008F8774 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE9874411F146BD3008F8774 /* OXDatePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE9874421F146BD3008F8774 /* OXDatePickerTests.m */,
+				CE9874441F146BD3008F8774 /* Info.plist */,
+			);
+			path = OXDatePickerTests;
+			sourceTree = "<group>";
+		};
+		CE98744C1F146BD3008F8774 /* OXDatePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE98744D1F146BD3008F8774 /* OXDatePickerUITests.m */,
+				CE98744F1F146BD3008F8774 /* Info.plist */,
+			);
+			path = OXDatePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9874241F146BD3008F8774 /* OXDatePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9874521F146BD3008F8774 /* Build configuration list for PBXNativeTarget "OXDatePicker" */;
+			buildPhases = (
+				CE9874211F146BD3008F8774 /* Sources */,
+				CE9874221F146BD3008F8774 /* Frameworks */,
+				CE9874231F146BD3008F8774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OXDatePicker;
+			productName = OXDatePicker;
+			productReference = CE9874251F146BD3008F8774 /* OXDatePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE98743D1F146BD3008F8774 /* OXDatePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9874551F146BD3008F8774 /* Build configuration list for PBXNativeTarget "OXDatePickerTests" */;
+			buildPhases = (
+				CE98743A1F146BD3008F8774 /* Sources */,
+				CE98743B1F146BD3008F8774 /* Frameworks */,
+				CE98743C1F146BD3008F8774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE9874401F146BD3008F8774 /* PBXTargetDependency */,
+			);
+			name = OXDatePickerTests;
+			productName = OXDatePickerTests;
+			productReference = CE98743E1F146BD3008F8774 /* OXDatePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE9874481F146BD3008F8774 /* OXDatePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9874581F146BD3008F8774 /* Build configuration list for PBXNativeTarget "OXDatePickerUITests" */;
+			buildPhases = (
+				CE9874451F146BD3008F8774 /* Sources */,
+				CE9874461F146BD3008F8774 /* Frameworks */,
+				CE9874471F146BD3008F8774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE98744B1F146BD3008F8774 /* PBXTargetDependency */,
+			);
+			name = OXDatePickerUITests;
+			productName = OXDatePickerUITests;
+			productReference = CE9874491F146BD3008F8774 /* OXDatePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE98741D1F146BD3008F8774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Tencare;
+				TargetAttributes = {
+					CE9874241F146BD3008F8774 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CE98743D1F146BD3008F8774 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE9874241F146BD3008F8774;
+					};
+					CE9874481F146BD3008F8774 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE9874241F146BD3008F8774;
+					};
+				};
+			};
+			buildConfigurationList = CE9874201F146BD3008F8774 /* Build configuration list for PBXProject "OXDatePicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE98741C1F146BD3008F8774;
+			productRefGroup = CE9874261F146BD3008F8774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9874241F146BD3008F8774 /* OXDatePicker */,
+				CE98743D1F146BD3008F8774 /* OXDatePickerTests */,
+				CE9874481F146BD3008F8774 /* OXDatePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9874231F146BD3008F8774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9874381F146BD3008F8774 /* LaunchScreen.storyboard in Resources */,
+				CE9874351F146BD3008F8774 /* Assets.xcassets in Resources */,
+				CE9874331F146BD3008F8774 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE98743C1F146BD3008F8774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9874471F146BD3008F8774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9874211F146BD3008F8774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9874301F146BD3008F8774 /* ViewController.m in Sources */,
+				CE98742D1F146BD3008F8774 /* AppDelegate.m in Sources */,
+				CE98742A1F146BD3008F8774 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE98743A1F146BD3008F8774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9874431F146BD3008F8774 /* OXDatePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9874451F146BD3008F8774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE98744E1F146BD3008F8774 /* OXDatePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE9874401F146BD3008F8774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9874241F146BD3008F8774 /* OXDatePicker */;
+			targetProxy = CE98743F1F146BD3008F8774 /* PBXContainerItemProxy */;
+		};
+		CE98744B1F146BD3008F8774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE9874241F146BD3008F8774 /* OXDatePicker */;
+			targetProxy = CE98744A1F146BD3008F8774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE9874311F146BD3008F8774 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9874321F146BD3008F8774 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE9874361F146BD3008F8774 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9874371F146BD3008F8774 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9874501F146BD3008F8774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE9874511F146BD3008F8774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9874531F146BD3008F8774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OXDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE9874541F146BD3008F8774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OXDatePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXDatePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE9874561F146BD3008F8774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OXDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OXDatePicker.app/OXDatePicker";
+			};
+			name = Debug;
+		};
+		CE9874571F146BD3008F8774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OXDatePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXDatePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OXDatePicker.app/OXDatePicker";
+			};
+			name = Release;
+		};
+		CE9874591F146BD3008F8774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OXDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OXDatePicker;
+			};
+			name = Debug;
+		};
+		CE98745A1F146BD3008F8774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OXDatePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXDatePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OXDatePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9874201F146BD3008F8774 /* Build configuration list for PBXProject "OXDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9874501F146BD3008F8774 /* Debug */,
+				CE9874511F146BD3008F8774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9874521F146BD3008F8774 /* Build configuration list for PBXNativeTarget "OXDatePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9874531F146BD3008F8774 /* Debug */,
+				CE9874541F146BD3008F8774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE9874551F146BD3008F8774 /* Build configuration list for PBXNativeTarget "OXDatePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9874561F146BD3008F8774 /* Debug */,
+				CE9874571F146BD3008F8774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE9874581F146BD3008F8774 /* Build configuration list for PBXNativeTarget "OXDatePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9874591F146BD3008F8774 /* Debug */,
+				CE98745A1F146BD3008F8774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE98741D1F146BD3008F8774 /* Project object */;
+}

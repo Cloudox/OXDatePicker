@@ -15,6 +15,7 @@
 		CE9874381F146BD3008F8774 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9874361F146BD3008F8774 /* LaunchScreen.storyboard */; };
 		CE9874431F146BD3008F8774 /* OXDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9874421F146BD3008F8774 /* OXDatePickerTests.m */; };
 		CE98744E1F146BD3008F8774 /* OXDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98744D1F146BD3008F8774 /* OXDatePickerUITests.m */; };
+		CE98748C1F14FCC9008F8774 /* OXDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98748B1F14FCC9008F8774 /* OXDatePickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CE9874491F146BD3008F8774 /* OXDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE98744D1F146BD3008F8774 /* OXDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXDatePickerUITests.m; sourceTree = "<group>"; };
 		CE98744F1F146BD3008F8774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE98748A1F14FCC9008F8774 /* OXDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXDatePickerView.h; sourceTree = "<group>"; };
+		CE98748B1F14FCC9008F8774 /* OXDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXDatePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CE98742C1F146BD3008F8774 /* AppDelegate.m */,
 				CE98742E1F146BD3008F8774 /* ViewController.h */,
 				CE98742F1F146BD3008F8774 /* ViewController.m */,
+				CE98748A1F14FCC9008F8774 /* OXDatePickerView.h */,
+				CE98748B1F14FCC9008F8774 /* OXDatePickerView.m */,
 				CE9874311F146BD3008F8774 /* Main.storyboard */,
 				CE9874341F146BD3008F8774 /* Assets.xcassets */,
 				CE9874361F146BD3008F8774 /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				CE9874301F146BD3008F8774 /* ViewController.m in Sources */,
 				CE98742D1F146BD3008F8774 /* AppDelegate.m in Sources */,
 				CE98742A1F146BD3008F8774 /* main.m in Sources */,
+				CE98748C1F14FCC9008F8774 /* OXDatePickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

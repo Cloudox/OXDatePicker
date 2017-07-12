@@ -16,6 +16,7 @@
 		CE9874431F146BD3008F8774 /* OXDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9874421F146BD3008F8774 /* OXDatePickerTests.m */; };
 		CE98744E1F146BD3008F8774 /* OXDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98744D1F146BD3008F8774 /* OXDatePickerUITests.m */; };
 		CE98748C1F14FCC9008F8774 /* OXDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE98748B1F14FCC9008F8774 /* OXDatePickerView.m */; };
+		CE9874901F1617DF008F8774 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = CE98748F1F1617DF008F8774 /* demo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		CE98744F1F146BD3008F8774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE98748A1F14FCC9008F8774 /* OXDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXDatePickerView.h; sourceTree = "<group>"; };
 		CE98748B1F14FCC9008F8774 /* OXDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXDatePickerView.m; sourceTree = "<group>"; };
+		CE98748F1F1617DF008F8774 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				CE9874411F146BD3008F8774 /* OXDatePickerTests */,
 				CE98744C1F146BD3008F8774 /* OXDatePickerUITests */,
 				CE9874261F146BD3008F8774 /* Products */,
+				CE98748F1F1617DF008F8774 /* demo.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9874901F1617DF008F8774 /* demo.png in Resources */,
 				CE9874381F146BD3008F8774 /* LaunchScreen.storyboard in Resources */,
 				CE9874351F146BD3008F8774 /* Assets.xcassets in Resources */,
 				CE9874331F146BD3008F8774 /* Main.storyboard in Resources */,
@@ -513,6 +517,7 @@
 				CE9874541F146BD3008F8774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE9874551F146BD3008F8774 /* Build configuration list for PBXNativeTarget "OXDatePickerTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +526,7 @@
 				CE9874571F146BD3008F8774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE9874581F146BD3008F8774 /* Build configuration list for PBXNativeTarget "OXDatePickerUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +535,7 @@
 				CE98745A1F146BD3008F8774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

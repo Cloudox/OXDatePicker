@@ -41,7 +41,7 @@
  按钮响应
  */
 - (void)onClick {
-    OXDatePickerView *pickerView = [[OXDatePickerView alloc] initWithDefaultDate:1499040000 dateArray:[NSMutableArray arrayWithArray:@[[NSNumber numberWithLong: 1499040000], [NSNumber numberWithLong:1499083200], [NSNumber numberWithLong:1499123200], [NSNumber numberWithLong:1499020000], [NSNumber numberWithLong:1498816800], [NSNumber numberWithLong:1499162400], [NSNumber numberWithLong:1498744800]]]];
+    OXDatePickerView *pickerView = [[OXDatePickerView alloc] initWithDefaultDate:1499040000 dateArray:[NSMutableArray arrayWithArray:@[[NSNumber numberWithLong: 1499040000], [NSNumber numberWithLong:1499522400], [NSNumber numberWithLong:1499123200], [NSNumber numberWithLong:1499020000], [NSNumber numberWithLong:1498816800], [NSNumber numberWithLong:1499162400], [NSNumber numberWithLong:1498744800]]]];
     pickerView.delegate = self;
     [self.view addSubview:pickerView];
 }
